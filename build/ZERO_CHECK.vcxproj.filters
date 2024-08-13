@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sauli\User_Test_Program\C_C++\Homework_6_SaulinIA\build\CMakeFiles\1bc1c3509dbeebb6d321ff59a507bc29\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0D1EFB9A-74EF-3731-9597-02D27962C02B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
