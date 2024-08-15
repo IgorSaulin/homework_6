@@ -24,7 +24,7 @@ events:
       The output was:
       0
       Версия MSBuild 17.9.8+b34f75857 для .NET Framework
-      Сборка начата 11.08.2024 0:44:18.
+      Сборка начата 14.08.2024 0:06:24.
       
       Проект "C:\\Users\\sauli\\User_Test_Program\\C_C++\\Homework_6_SaulinIA\\build\\CMakeFiles\\3.29.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:02.88
+      Прошло времени 00:00:04.07
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -72,8 +72,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/sauli/User_Test_Program/C_C++/Homework_6_SaulinIA/build/CMakeFiles/CMakeScratch/TryCompile-pvn4vy"
-      binary: "C:/Users/sauli/User_Test_Program/C_C++/Homework_6_SaulinIA/build/CMakeFiles/CMakeScratch/TryCompile-pvn4vy"
+      source: "C:/Users/sauli/User_Test_Program/C_C++/Homework_6_SaulinIA/build/CMakeFiles/CMakeScratch/TryCompile-dcgrgv"
+      binary: "C:/Users/sauli/User_Test_Program/C_C++/Homework_6_SaulinIA/build/CMakeFiles/CMakeScratch/TryCompile-dcgrgv"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -82,40 +82,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/sauli/User_Test_Program/C_C++/Homework_6_SaulinIA/build/CMakeFiles/CMakeScratch/TryCompile-pvn4vy'
+        Change Dir: 'C:/Users/sauli/User_Test_Program/C_C++/Homework_6_SaulinIA/build/CMakeFiles/CMakeScratch/TryCompile-dcgrgv'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_68fe0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_27a8f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Версия MSBuild 17.9.8+b34f75857 для .NET Framework
-        Сборка начата 11.08.2024 0:44:22.
+        Сборка начата 14.08.2024 0:06:30.
         
-        Проект "C:\\Users\\sauli\\User_Test_Program\\C_C++\\Homework_6_SaulinIA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvn4vy\\cmTC_68fe0.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\sauli\\User_Test_Program\\C_C++\\Homework_6_SaulinIA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dcgrgv\\cmTC_27a8f.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_68fe0.dir\\Debug\\".
+          Создание каталога "cmTC_27a8f.dir\\Debug\\".
           Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-          Создание каталога "C:\\Users\\sauli\\User_Test_Program\\C_C++\\Homework_6_SaulinIA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvn4vy\\Debug\\".
-          Создание каталога "cmTC_68fe0.dir\\Debug\\cmTC_68fe0.tlog\\".
+          Создание каталога "C:\\Users\\sauli\\User_Test_Program\\C_C++\\Homework_6_SaulinIA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dcgrgv\\Debug\\".
+          Создание каталога "cmTC_27a8f.dir\\Debug\\cmTC_27a8f.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_68fe0.dir\\Debug\\cmTC_68fe0.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_68fe0.dir\\Debug\\cmTC_68fe0.tlog\\unsuccessfulbuild".
+          Создание "cmTC_27a8f.dir\\Debug\\cmTC_27a8f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_27a8f.dir\\Debug\\cmTC_27a8f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_68fe0.dir\\Debug\\\\" /Fd"cmTC_68fe0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27a8f.dir\\Debug\\\\" /Fd"cmTC_27a8f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33523 для x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_68fe0.dir\\Debug\\\\" /Fd"cmTC_68fe0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27a8f.dir\\Debug\\\\" /Fd"cmTC_27a8f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sauli\\User_Test_Program\\C_C++\\Homework_6_SaulinIA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvn4vy\\Debug\\cmTC_68fe0.exe" /INCREMENTAL /ILK:"cmTC_68fe0.dir\\Debug\\cmTC_68fe0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sauli/User_Test_Program/C_C++/Homework_6_SaulinIA/build/CMakeFiles/CMakeScratch/TryCompile-pvn4vy/Debug/cmTC_68fe0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sauli/User_Test_Program/C_C++/Homework_6_SaulinIA/build/CMakeFiles/CMakeScratch/TryCompile-pvn4vy/Debug/cmTC_68fe0.lib" /MACHINE:X64  /machine:x64 cmTC_68fe0.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_68fe0.vcxproj -> C:\\Users\\sauli\\User_Test_Program\\C_C++\\Homework_6_SaulinIA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvn4vy\\Debug\\cmTC_68fe0.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sauli\\User_Test_Program\\C_C++\\Homework_6_SaulinIA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dcgrgv\\Debug\\cmTC_27a8f.exe" /INCREMENTAL /ILK:"cmTC_27a8f.dir\\Debug\\cmTC_27a8f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sauli/User_Test_Program/C_C++/Homework_6_SaulinIA/build/CMakeFiles/CMakeScratch/TryCompile-dcgrgv/Debug/cmTC_27a8f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sauli/User_Test_Program/C_C++/Homework_6_SaulinIA/build/CMakeFiles/CMakeScratch/TryCompile-dcgrgv/Debug/cmTC_27a8f.lib" /MACHINE:X64  /machine:x64 cmTC_27a8f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_27a8f.vcxproj -> C:\\Users\\sauli\\User_Test_Program\\C_C++\\Homework_6_SaulinIA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dcgrgv\\Debug\\cmTC_27a8f.exe
         FinalizeBuildStatus:
-          Файл "cmTC_68fe0.dir\\Debug\\cmTC_68fe0.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_68fe0.dir\\Debug\\cmTC_68fe0.tlog\\cmTC_68fe0.lastbuildstate".
-        Сборка проекта "C:\\Users\\sauli\\User_Test_Program\\C_C++\\Homework_6_SaulinIA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvn4vy\\cmTC_68fe0.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_27a8f.dir\\Debug\\cmTC_27a8f.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_27a8f.dir\\Debug\\cmTC_27a8f.tlog\\cmTC_27a8f.lastbuildstate".
+        Сборка проекта "C:\\Users\\sauli\\User_Test_Program\\C_C++\\Homework_6_SaulinIA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dcgrgv\\cmTC_27a8f.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:01.71
+        Прошло времени 00:00:01.93
         
       exitCode: 0
   -

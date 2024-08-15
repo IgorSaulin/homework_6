@@ -1,8 +1,0 @@
-[
-{
-  "directory": "C:/Users/sauli/User_Test_Program/C_C++/Homework_6_SaulinIA/build",
-  "command": "\"C:/Program Files/Simcenter/2020.2/Amesim/sys/mingw32/bin/c++.exe\"   -g -o CMakeFiles/Matrix_class.dir/src/Matrix.cpp.obj -c C:/Users/sauli/User_Test_Program/C_C++/Homework_6_SaulinIA/src/Matrix.cpp",
-  "file": "C:/Users/sauli/User_Test_Program/C_C++/Homework_6_SaulinIA/src/Matrix.cpp",
-  "output": "CMakeFiles/Matrix_class.dir/src/Matrix.cpp.obj"
-}
-]
