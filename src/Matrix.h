@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include <iostream>
 //Данный файл является заголовочным
 namespace math //Задается пространство имен, в котором указываются сведения касательно данного класса
 {
@@ -32,5 +33,50 @@ namespace math //Задается пространство имен, в кото
             friend Matrix operator-(const Matrix& A, const Matrix& B);
 
             friend Matrix operator*(const Matrix& A, const Matrix& B);
+
+            /*Выполнение ДЗ*/
+            friend Matrix operator+=(Matrix& A, const Matrix& B); //Перегрузка оператора +=
+
+            friend Matrix operator-=(Matrix& A, const Matrix& B); //Перегрузка оператора -=
+
+            friend Matrix operator*=(Matrix& A, const int B); //Перегрузка оператора *=
+
+            //Геттеры для всех закрытых членов класса
+            std::vector<real> getMvec () {return mvec_;}
+            int getCols () const {return cols_;}
+            int getRows () const {return rows_;}
+
+            //Сеттеры для всех членов закрытого класса
+            void setMvec(std::vector<real> Numbers_in_vector) {mvec_=Numbers_in_vector;}
+            void setCols (int COLS) {cols_=COLS;}
+            void setRows (int ROWS) {rows_=ROWS;}
+
+            //Перегрузка оператора вывода информации
+            friend std::ostream& operator << (std::ostream &os, Matrix &A)
+            {
+                for (int i=0; i<A.rows_; ++i) 
+                {
+                     for (int j=0; j<A.cols_; ++j)
+                     {
+                        os << A(i, j) << " ";
+                    }
+                    os<< std::endl;
+                }
+                return os;
+            }
+
+            friend std::istream& operator >> (std::istream& in, Matrix& A)
+            {
+                in >> A.cols_;
+                in >> A.rows_;
+                
+                for (int i=0; i<A.rows_*A.cols_; ++i)
+                {
+                    in >> A.mvec_[i];
+                }
+
+                return in;
+            }
+
     };
 }

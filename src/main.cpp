@@ -28,5 +28,36 @@ int main ()
     math::Matrix m4=m*m1;
     m4.print();
 
+    std::cout<<std::endl<<"Matrix after +=:"<<std::endl;
+    m+=m1;
+    m.print();
+
+    std::cout<<std::endl<<"Matrix after -=:"<<std::endl;
+    m-=m3;
+    m.print();
+
+    std::cout<<std::endl<<"Matrix after *=:"<<std::endl;
+    m*=5;
+    m.print();
+
+    std::cout <<"Matrix m="<<m;
+
+    math::Matrix m6(1000, 1000);
+
+    std::cout<<"Enter matrix cols, rows and all matrix elements"<<std::endl;
+    std::cin>>m6;
+
+    std::cout<<"Your Matrix: "<<std::endl;
+    std::cout <<m6;
+
+    m6(0, 0)=4; //Переприсвоим значение первого элемента матрицы
+
+    m6*=2;
+
+    std::cout<<"Your Matrix: "<<std::endl;
+    std::cout <<m6;
+
+    
+
     return 0;
 }

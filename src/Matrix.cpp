@@ -119,3 +119,50 @@ Matrix math::operator*(const Matrix &A, const Matrix &B)
 
     return M;
 }
+
+Matrix math::operator+=(Matrix& A, const Matrix& B)
+{
+    if((A.cols_ != B.cols_) || (A.rows_ != B.rows_))
+    {
+        std::cerr<<"Matrix: Matrices can't be added"<<std::endl;
+        return Matrix(0, 0);
+    }
+
+    for(int i=0; i<A.mvec_.size(); ++i)
+    {
+        A.mvec_.at(i) = B.mvec_.at(i)+A.mvec_.at(i);
+    }
+
+    return A;
+}
+
+Matrix math::operator-=(Matrix& A, const Matrix& B)
+{
+    if((A.cols_ != B.cols_) || (A.rows_ != B.rows_))
+    {
+        std::cerr<<"Matrix: Matrices can't be subtracted!"<<std::endl;
+        return Matrix(0, 0);
+    }
+    
+    for(int i=0; i<A.mvec_.size(); ++i)
+    {
+        A.mvec_.at(i) = A.mvec_.at(i)-B.mvec_.at(i);
+    }
+
+    return A;
+}
+
+Matrix math::operator*=(Matrix& A, const int B)
+{
+    for(int i=0; i<A.mvec_.size(); ++i)
+    {
+        A.mvec_.at(i) = A.mvec_.at(i)*B;
+    }
+
+    return A;
+}
+
+/*std::ostream& operator << (std::ostream &os, Matrix &car)
+{
+    return os <<"Marks: "<< car.getCols() <<std::endl;
+}*/
